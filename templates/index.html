@@ -95,7 +95,7 @@
                                                 <h4 class="info-text"> Please provide us with the basic details</h4>
                                                 <h4 class="info-text label-{{lable}}"> {{msg}}</h4>
                                             </div>
-                                            <form action="/medicines" method="POST">
+                                            <form action="{{ url_for('medicines') }}" method="POST">
                                                 <div class="col-sm-5 col-sm-offset-1">
                                                     <div class="form-group label-floating">
                                                         <label class="control-label">Contact Number</label>
@@ -136,7 +136,7 @@
                                                 <h4 class="info-text "> Please enter the basic details</h4>
                                                 <h4 class="info-text label-{{lable}}"> {{msg}}</h4>
                                             </div>
-                                            <form action="/oxygen " method="POST">
+                                            <form action="{{ url_for('oxygen') }}" method="POST">
                                                 <div class="col-sm-5 col-sm-offset-1 ">
                                                     <div class="form-group label-floating ">
                                                         <label class="control-label ">Contact Number</label>
@@ -171,7 +171,7 @@
                                                 <h4 class="info-text "> We'll send you a list of available Doctors</h4>
                                                 <h4 class="info-text label-{{lable}}"> {{msg}}</h4>
                                             </div>
-                                            <form action="/consultation " method="POST">
+                                            <form action="{{ url_for('consultation') }}" method="POST">
                                                 <div class="col-sm-5 col-sm-offset-1 ">
                                                     <div class="form-group label-floating ">
                                                         <label class="control-label ">Contact Number</label>
